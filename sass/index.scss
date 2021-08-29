@@ -1,0 +1,23 @@
+@use './components/form';
+@use './components/utils' as *;
+
+
+body {
+    background: lightskyblue;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: $h1;
+    color: $red;
+    margin: $marginSmall;
+}
+
+.subtitle {
+    text-align: left;
+    margin-left: 10px;
+    font-size: $h2;
+    color: $black;
+}

@@ -1,0 +1,30 @@
+@use './utils' as *;
+
+$formMedium : 800px;
+
+form {
+    width: $formMedium;
+    background: $yellowDark;
+    margin: auto;
+    padding: $paddingSmall;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: $paddingSmall;
+}
+
+.submit-button {
+    background: $purple;
+    color: white;
+    padding: $paddingSmall;
+    margin: auto;
+    margin-top: $marginSmall;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background: $darkBlue;
+    }
+}

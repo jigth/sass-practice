@@ -1,0 +1,65 @@
+.small-button {
+  width: 100px;
+  height: 100px;
+  background: #ED0000;
+}
+
+.medium-button {
+  width: 400px;
+  height: 400px;
+  background: lightblue;
+}
+
+.big-button {
+  width: 800px;
+  height: 800px;
+  background: indigo;
+}
+
+form {
+  width: 800px;
+  background: #b8b814;
+  margin: auto;
+  padding: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.submit-button {
+  background: indigo;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background: navy;
+}
+
+body {
+  background: lightskyblue;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  color: #ED0000;
+  margin: 20px;
+}
+
+.subtitle {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 28px;
+  color: #233;
+}
+
+/*# sourceMappingURL=styles.css.map */

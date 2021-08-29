@@ -1,0 +1,22 @@
+@use './dimensions' as d;
+@use './colors' as c;
+
+
+.small-button {
+    width: d.$buttonSmall;
+    height: d.$buttonSmall;
+    background: c.$red;
+}
+
+.medium-button {
+    width: d.$buttonMedium;
+    height: d.$buttonMedium;
+    background: c.$blue;
+}
+
+.big-button {
+    width: d.$buttonBig;
+    height: d.$buttonBig;
+    background: c.$purple;
+}
+
