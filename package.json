@@ -1,0 +1,27 @@
+{
+  "name": "sass-practice",
+  "version": "1.0.0",
+  "description": "Basic form styled with SASS to practice the basic \"new syntax\" of that language and learn some advantages of modular code in style sheets.",
+  "scripts": {
+    "watch:sass": "npx sass --watch sass/index.scss css/styles.css",
+    "watch": "npm run watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigth/sass-practice.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "frontend practice"
+  ],
+  "author": "Jigth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jigth/sass-practice/issues"
+  },
+  "homepage": "https://github.com/jigth/sass-practice#readme",
+  "devDependencies": {
+    "sass": "^1.38.2"
+  }
+}
